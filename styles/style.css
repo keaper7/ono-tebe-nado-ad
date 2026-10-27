@@ -11,6 +11,8 @@
   display: flex;
   list-style: circle;
   gap: 23px;
+  font-size: 18px;
+  line-height: 100%;
 }
 
 .menu li:first-child a {
@@ -20,7 +22,7 @@
   list-style: none;
 }
 .logo {
-  width: 148px;
+  width: 130px;
   height: 105px;
 }
 
@@ -31,12 +33,14 @@
   justify-self: end;
   align-items: flex-start;
   font-style: normal;
+  font-size: 18px;
+  line-height: 24.3px;
 }
 
 
 .cover {
   background-image: url("../images/cover.jpg");
-  min-height: 100vh;
+  height: 758px;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -216,6 +220,7 @@
   justify-content: space-between;
   height: 180px;
   padding: 0 50px;
+  font-size: 18px;
 }
 .links {
   display: flex;
